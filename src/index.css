@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===============================
+   GLOBAL RESET / UNLOCK ROOT
+   =============================== */
+
+html,
+body,
+#root {
+  height: auto;
+  min-height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* ===============================
+   BASE THEME
+   =============================== */
+
+body {
+  background-color: #020617; /* slate-950 */
+  color: #e5e7eb; /* slate-200 */
+  margin: 0;
+}
