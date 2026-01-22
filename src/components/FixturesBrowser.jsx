@@ -47,7 +47,7 @@ export default function FixturesBrowser() {
       params.set("to", clampDate(dateTo));
       params.set("leagues", leagues.join(","));
 
-      const url = `${API_BASE_URL}/api/fixtures?${params.toString()}`;
+      const url = `${API_BASE_URL}/fixtures?${params.toString()}`;
       const res = await fetch(url);
       const data = await res.json();
 
